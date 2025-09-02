@@ -11,7 +11,7 @@ const Header = () => {
                 <img className='lg:w-[300px] ' src={logo} alt="" />
                 <h1 className='text-gray-500'>Journalism with                                                          out Fear or Favor</h1>
                 <p>{moment().format('dddd MMMM Do YYYY')}</p>
-                <Navbar></Navbar>
+                
             </div>
         </div>
     );
